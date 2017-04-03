@@ -1,0 +1,128 @@
+body {
+  margin-top: 55px
+}
+
+.head-banner {
+  background-color: black;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.text-white {
+  color: white;
+}
+
+.info-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-lg {
+  font-size: 100px;
+}
+
+.title-md {
+  font-size: 75px;
+}
+
+.title-band {
+  padding-top: 50px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.font-md-weight {
+  font-weight: 300;
+}
+
+.img-info-text {
+  margin-top: 15px;
+}
+
+.band-content {
+  margin-top: 40px;
+}
+
+.card {
+  width: 350px;
+}
+
+.head-bg {
+  height: 400px;
+  background: transparent;
+}
+
+.info-bg {
+  height: 200px;
+  background: transparent;
+}
+
+.band {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.circular-img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.brand-img {
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:350px;
+   top:350px;
+   margin-top:-350px;
+}
+
+.rm-band {
+  height: 520px;
+  background-image: url('../img/title-bands/RM_Thunderbolt.jpg');
+  background-position: center 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #0F434F;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.sm-link {
+  margin: 20px;
+}
+
+.sm-link:hover {
+  color: grey;
+}
