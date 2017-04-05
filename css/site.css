@@ -1,10 +1,47 @@
+
+.title-md {
+  font-size: 75px;
+}
+
+.title-band {
+  padding-top: 50px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.card {
+  width: 350px;
+}
+
+
+@media only screen and (max-device-width: 700px) {
+  .title-md {
+    font-size: 50px;
+  }
+
+  .title-band {
+    padding-top: 75px;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card {
+    width: 300px;
+  }
+}
+
 body {
   margin-top: 55px
 }
 
 .head-banner {
-  background-color: black;
-  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 80px;
+  margin-bottom: 80px;
   padding: 20px;
 }
 
@@ -21,19 +58,11 @@ body {
   font-size: 100px;
 }
 
-.title-md {
-  font-size: 75px;
-}
-
-.title-band {
-  padding-top: 50px;
-}
-
-.card-img-top {
-  height: 250px;
-}
-
 .font-md-weight {
+  font-weight: 300;
+}
+
+.font-lt-weight {
   font-weight: 300;
 }
 
@@ -45,12 +74,7 @@ body {
   margin-top: 40px;
 }
 
-.card {
-  width: 350px;
-}
-
 .head-bg {
-  height: 400px;
   background: transparent;
 }
 
@@ -66,8 +90,8 @@ body {
 
 .circular-img {
     object-fit: cover;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -115,7 +139,7 @@ body {
 
 .footer {
   background-color: #0F434F;
-  padding-top: 40px;
+  padding-top: 5px;
   padding-bottom: 30px;
 }
 
@@ -125,4 +149,15 @@ body {
 
 .sm-link:hover {
   color: grey;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-img {
+  width: 100px;
+  /*margin-bottom: 10px;*/
 }

@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Ozzies Cycle, Port Alberni's original bike shop established 1993.">
     <meta name="author" content="Ozzies Cycle">
-    <link rel="icon" href="img/logo/ozzieslogo.jpg">
+    <link rel="icon" href="img/logo/ozzies_icon.gif">
 
-    <title>Ozzies Cycle</title>
+    <title>Ozzie's Cycle</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/thirdparty/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -23,14 +23,14 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="">Ozzies Cycle</a>
+      <a class="navbar-brand" style="padding: 0px" href=""><img style="height:40px;" src="img/logo/ozzies.gif"></a>
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#services">Services</a></li>
-          <li><a class="nav-link" href="#brands">Brands</a></li>
-          <li><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#brands">Brands</a></li>
+          <li class="nav-item pull-xs-right"><a class="nav-link" href="#team">Team</a></li>
         </ul>
       </div>
     </nav>
@@ -91,7 +91,7 @@
           <div class="row band">
             <div class="col-lg-4 col-md-6">
               <div class="card">
-                <img class="card-img-top" src="img/services/minorservice.jpg" alt="Card image cap">
+                <img class="card-img-top" src="img/services/minorservice.jpg" alt="Minor service">
                 <div class="card-block">
                   <h4 class="card-title">Minor <small>$10-30</small></h4>
                   <p class="card-text">It may be minor adjustments, but they go a long way! We check your brakes, deraileur alignment, bolts and tire pressure.</p>
@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="card">
-                <img class="card-img-top" src="img/services/mediumservice.jpg" alt="Card image cap">
+                <img class="card-img-top" src="img/services/mediumservice.jpg" alt="Medium service">
                 <div class="card-block">
                   <h4 class="card-title">Medium <small>$30-50</small></h4>
                   <p class="card-text">Give your bike a little love, it deserves it. We replace all your deraileur and brake cables as well as check all bolts and alignments.</p>
@@ -109,7 +109,7 @@
             </div>
             <div class="col-lg-4 col-md-12">
               <div class="card">
-                <img class="card-img-top" src="img/services/majorservice.jpg" alt="Card image cap">
+                <img class="card-img-top" src="img/services/majorservice.jpg" alt="Major service">
                 <div class="card-block">
                   <h4 class="card-title">Major <small>$50-100</small></h4>
                   <p class="card-text">The full meal deal. Full bike break down, regreased and reassembled for your optimal enjoyment. This includes fork and brake services.</p>
@@ -187,21 +187,28 @@
       <div class="container">
         <div class="about-row-band-title text-center">
           <div class="row">
-            <div class="col-sm-6 col-md-4 info-card">
+            <div class="col-sm-6 col-md-3 info-card">
               <img class="circular-img" src="img/team/lee.jpg">
               <div class="text-center img-info-text">
                 <h4>Lee Blais</h4>
                 <h6>Part-Owner/Mechanic</h4>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 info-card">
+            <div class="col-sm-6 col-md-3 info-card">
               <img class="circular-img" src="img/team/gordon.jpg">
               <div class="text-center img-info-text">
                 <h4>Gordon Randall</h4>
                 <h6>Part-Owner/Mechanic</h4>
               </div>
             </div>
-            <div class="col-sm-12 col-md-4 info-card">
+            <div class="col-sm-6 col-md-3 info-card">
+              <img class="circular-img" src="img/team/charles.jpg">
+              <div class="text-center img-info-text">
+                <h4>Charles Thomas</h4>
+                <h6>Mechanic</h4>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 info-card">
               <img class="circular-img" src="img/team/jordan.jpg">
               <div class="text-center img-info-text">
                 <h4>Jordan</h4>
@@ -235,9 +242,15 @@
 
 
     <div class="footer">
+      <div style="border-bottom: solid black 4px; border-top: solid black 4px;">
+        <div style="padding: 5px; background-color: white; border-bottom: solid red 3px; border-top: solid red 3px;">
+          <img class="footer-img center-img" src="img/logo/ozzies.gif">
+        </div>
+      </div>
       <div class="container">
-          <h4 class="text-center text-white">
-            OZZIES CYCLE<br><small>4256 10th Ave, Port Alberni, BC V9Y 4X3</small>
+          <br>
+          <h4 class="text-center text-white font-lt-weight">
+            OZZIES CYCLE<br><small class="font-lt-weight">4256 10th Ave, Port Alberni, BC V9Y 4X3</small>
           </h4>
           <br>
           <div class="text-center">
@@ -256,10 +269,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/parallax/parallax.min.js"></script>
   </body>
 </html>
