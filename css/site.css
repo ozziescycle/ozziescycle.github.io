@@ -1,4 +1,37 @@
 
+#bgvid {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("www.cortlandthibodeau.com/Pictures/cortlandthibodeau.png") no-repeat;
+  background-size: cover;
+}
+
+main {
+  background: #fff;
+}
+
+.jumbovidtext {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0.7);
+  margin: 160px 0 120px;
+  overflow-y: hidden;
+}
+
 .title-md {
   font-size: 75px;
 }
@@ -30,6 +63,20 @@
 
   .card {
     width: 280px;
+  }
+
+  #instafeed > img {
+    width: 280px;
+    height: 280px;
+  }
+
+  /*------------*/
+
+  .jumbotron {
+       background: url("http://www.cortlandthibodeau.com/Pictures/cortlandthibodeau.png") #000 no-repeat center center fixed;
+  }
+  #bgvid {
+      display: none;
   }
 }
 
@@ -137,17 +184,17 @@ body {
 }
 
 .footer {
-  background-color: #0F434F;
-  padding-top: 5px;
+  background-color: #303030;
   padding-bottom: 30px;
 }
 
 .sm-link {
   margin: 20px;
+  color: white;
 }
 
 .sm-link:hover {
-  color: grey;
+  color: lightgrey;
 }
 
 .center-img {
@@ -158,5 +205,6 @@ body {
 
 .footer-img {
   width: 100px;
+  padding: 4px 0;
   /*margin-bottom: 10px;*/
 }

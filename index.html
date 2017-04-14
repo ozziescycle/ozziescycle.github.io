@@ -20,229 +20,228 @@
   <body>
 
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ozziesNavToggle" aria-controls="ozziesNavToggle" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" style="padding: 0px" href=""><img style="height:40px;" src="img/logo/ozzies.gif"></a>
 
-      <div class="collapse navbar-collapse">
+      <div id="ozziesNavToggle" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#brands">Brands</a></li>
           <li class="nav-item pull-xs-right"><a class="nav-link" href="#team">Team</a></li>
         </ul>
+
+        <ul class="nav navbar-nav float-right hidden-md-down">
+          <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/ozziescycle/"><i class="fa fa-instagram"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/ozzies.cycle"><i class="fa fa-facebook"></i></a></li>
+        </ul>
       </div>
     </nav>
 
-    <div class="band head-bg parallax-window" data-parallax="scroll" data-image-src="img/title-bands/header.jpg">
-      <div class="head-banner">
-        <h1 class="text-center text-white title-lg hidden-sm-down">OZZIES CYCLE</h1>
-        <h1 class="text-center text-white hidden-md-up">OZZIES<br>CYCLE</h1>
-        <p class="text-center text-white">EST. 1993</p>
+    <div class="jumbotron">
+      <video id="bgvid" playsinline autoplay muted loop poster="http://www.cortlandthibodeau.com/Pictures/cortlandthibodeau.png">
+          <source src="http://www.cortlandthibodeau.com/Pictures/cortlandthibodeau.mp4" type="video/mp4">
+      </video>
+
+      <div class="center jumbovidtext text-center">
+        <h1 class="text-white title-lg hidden-sm-down">OZZIES CYCLE</h1>
+        <h1 class="text-white hidden-md-up">OZZIES<br>CYCLE</h1>
+        <p class="text-white">EST. 1993</p>
       </div>
     </div>
-
-    <div id="about" class="band about-row-band">
-      <div class="container">
-        <div class="about-row-band-title text-center">
-          <h1>
-            Port Alberni's original bike shop!<br>
-            <small><i>A small bike shop with big hearts based out of Port Alberni, BC.</i></small>
-          </h1>
-          <div class="row band-content">
-            <div class="col-lg-8">
-              <div class="overlay" onClick="style.pointerEvents='none'"></div>
-              <iframe width="100%" height="350" frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJFULkNeD2iFQR9BlJGL4W43o&key=AIzaSyBdynPLg4MmI0H15PlO-yNyDIal5v6vS6o" allowfullscreen>
-              </iframe>
-            </div>
-            <div class="col-lg-4" style="padding-top: 80px;">
-              <h3>
-                <i class="fa fa-phone"></i>
-                (250) 724-6556
-              </h3>
-              <br>
-              <h3>
-                <i class="fa fa-envelope"></i>
-                ozziescycle@shaw.ca
-              </h3>
-              <br>
-              <h3>Open 9AM-5:30PM Monday-Saturday</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div id="services" class="info-bg parallax-window" data-parallax="scroll" data-image-src="img/title-bands/valley.jpg">
-      <div class="text-center title-band">
-        <h2 class="text-white title-md">SERVICES</h2>
-      </div>
-    </div>
-
-    <div class="band about-row-band">
-      <div class="container">
-        <div class="about-row-band-title text-center">
-          <h1>
-            <small>We provide multiple bike tuning services performed by our professional mechanics.</small>
-          </h1>
-          <div class="row band">
-            <div class="col-lg-4 col-md-6">
-              <div class="card">
-                <img class="card-img-top" src="img/services/minorservice.jpg" alt="Minor service">
-                <div class="card-block">
-                  <h4 class="card-title">Minor <small>$10-30</small></h4>
-                  <p class="card-text">It may be minor adjustments, but they go a long way! We check your brakes, deraileur alignment, bolts and tire pressure.</p>
-                </div>
+    
+    <main>
+      <div id="about" class="band about-row-band">
+        <div class="container">
+          <div class="about-row-band-title text-center">
+            <h1>
+              Port Alberni's original bike shop!<br>
+              <small><i>A small bike shop with big hearts based out of Port Alberni, BC.</i></small>
+            </h1>
+            <div class="row band-content">
+              <div class="col-lg-8">
+                <div class="overlay" onClick="style.pointerEvents='none'"></div>
+                <iframe width="100%" height="350" frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJFULkNeD2iFQR9BlJGL4W43o&key=AIzaSyBdynPLg4MmI0H15PlO-yNyDIal5v6vS6o" allowfullscreen>
+                </iframe>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="card">
-                <img class="card-img-top" src="img/services/mediumservice.jpg" alt="Medium service">
-                <div class="card-block">
-                  <h4 class="card-title">Medium <small>$30-50</small></h4>
-                  <p class="card-text">Give your bike a little love, it deserves it. We replace all your deraileur and brake cables as well as check all bolts and alignments.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-              <div class="card">
-                <img class="card-img-top" src="img/services/majorservice.jpg" alt="Major service">
-                <div class="card-block">
-                  <h4 class="card-title">Major <small>$50-100</small></h4>
-                  <p class="card-text">The full meal deal. Full bike break down, regreased and reassembled for your optimal enjoyment. This includes fork and brake services.</p>
-                </div>
+              <div class="col-lg-4" style="padding-top: 80px;">
+                <h3>
+                  <i class="fa fa-phone"></i>
+                  (250) 724-6556
+                </h3>
+                <br>
+                <h3>
+                  <i class="fa fa-envelope"></i>
+                  ozziescycle@shaw.ca
+                </h3>
+                <br>
+                <h3>Open 9:30AM-5:30PM Monday-Saturday</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <h4>Have any service rate questions? Don't hesitate to give us a call!</h4>
-        <br>
-        <a class="btn btn-info" href="tel:2507246556"><i class="fa fa-phone"></i> (250) 724-6556</a>
-      </div>
-    </div>
 
-    <div id="brands" class="info-bg parallax-window" data-parallax="scroll" data-image-src="img/title-bands/JordanWhistler.jpg">
-      <div class="text-center title-band">
-        <h2 class="text-white title-md">BRANDS</h2>
-      </div>
-    </div>
 
-    <div class="band about-row-band">
-      <div class="container">
-        <div class="about-row-band-title text-center">
-          <div class="row brand-row">
-            <div class="col-sm-4 offset-sm-0 col-md-2 offset-md-3">
-              <span class="helper"></span><img class="brand-img" src="img/brands/surlylogo.jpg">
-            </div>
-            <div class="col-sm-4 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/rmblogo.png">
-            </div>
-            <div class="col-sm-4 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/brodielogo.png">
+      <div id="services" class="info-bg parallax-window" data-z-index="0" data-parallax="scroll" data-image-src="img/title-bands/header.jpg">
+        <div class="text-center title-band container">
+          <h2 class="text-white title-md">SERVICES</h2>
+        </div>
+      </div>
+
+      <div class="band about-row-band">
+        <div class="container">
+          <div class="about-row-band-title text-center">
+            <h1>
+              <small>We provide multiple bike tuning services performed by our professional mechanics.</small>
+            </h1>
+            <div class="row band">
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img class="card-img-top" src="img/services/minorservice.jpg" alt="Minor service">
+                  <div class="card-block">
+                    <h4 class="card-title">Minor <small>$10</small></h4>
+                    <!-- <p class="card-text">It may be minor adjustments, but they go a long way! We check your brakes, deraileur alignment, bolts and tire pressure.</p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <img class="card-img-top" src="img/services/mediumservice.jpg" alt="Medium service">
+                  <div class="card-block">
+                    <h4 class="card-title">Tune up <small>$52</small></h4>
+                    <!-- <p class="card-text">Give your bike a little love, it deserves it. We replace all your deraileur and brake cables as well as check all bolts and alignments.</p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="card">
+                  <img class="card-img-top" src="img/services/majorservice.jpg" alt="Major service">
+                  <div class="card-block">
+                    <h4 class="card-title">Overhaul <small>$100</small></h4>
+                    <!-- <p class="card-text">The full meal deal. Full bike break down, regreased and reassembled for your optimal enjoyment. This includes fork and brake services.</p> -->
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="text-center">
+          <h4>Have any service rate questions? Don't hesitate to give us a call!</h4>
           <br>
-          <div class="row brand-row">
-            <div class="col-sm-3 offset-sm-0  col-md-2 offset-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/stanslogo.jpg">
-            </div>
-            <div class="col-sm-3 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/foxlogo.jpg">
-            </div>
-            <div class="col-sm-3 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/shimanologo.jpg">
-            </div>
-            <div class="col-sm-3 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/racefacelogo.jpg">
-            </div>
-          </div>
-          <br>
-          <div class="row brand-row">
-            <div class="col-sm-4 offset-sm-0  col-md-2 offset-md-3">
-              <span class="helper"></span><img class="brand-img" src="img/brands/sugoilogo.jpg">
-            </div>
-            <div class="col-sm-4 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/girologo.png">
-            </div>
-            <div class="col-sm-4 col-md-2">
-              <span class="helper"></span><img class="brand-img" src="img/brands/camelbaklogo.jpg">
-            </div>
-          </div>
+          <a class="btn btn-info" href="tel:2507246556"><i class="fa fa-phone"></i> (250) 724-6556</a>
         </div>
       </div>
-    </div>
 
-    <div id="team" class="info-bg parallax-window" data-parallax="scroll" data-image-src="img/title-bands/barrierleap.jpg">
-      <div class="text-center title-band">
-        <h2 class="text-white title-md">THE TEAM</h2>
+      <div id="brands" class="info-bg parallax-window" data-z-index="0" data-parallax="scroll" data-image-src="img/title-bands/JordanWhistler.jpg">
+        <div class="text-center title-band container">
+          <h2 class="text-white title-md">BRANDS</h2>
+        </div>
       </div>
-    </div>
 
-    <div class="band">
-      <div class="container">
-        <div class="about-row-band-title text-center">
-          <div class="row">
-            <div class="col-sm-6 col-md-3 info-card">
-              <img class="circular-img" src="img/team/lee.jpg">
-              <div class="text-center img-info-text">
-                <h4>Lee Blais</h4>
-                <h6>Part-Owner/Mechanic</h4>
+      <div class="band about-row-band">
+        <div class="container">
+          <div class="about-row-band-title text-center">
+            <div class="row brand-row">
+              <div class="col-sm-4 offset-sm-0 col-md-2 offset-md-3">
+                <span class="helper"></span><a href="http://surlybikes.com/"><img class="brand-img" src="img/brands/surlylogo.jpg"></a>
+              </div>
+              <div class="col-sm-4 col-md-2">
+                <span class="helper"></span><a href="http://www.bikes.com/"><img class="brand-img" src="img/brands/rmblogo.png"></a>
+              </div>
+              <div class="col-sm-4 col-md-2">
+                <span class="helper"></span><a href="http://www.brodiebikes.com/"><img class="brand-img" src="img/brands/brodielogo.png"></a>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3 info-card">
-              <img class="circular-img" src="img/team/gordon.jpg">
-              <div class="text-center img-info-text">
-                <h4>Gordon Randall</h4>
-                <h6>Part-Owner/Mechanic</h4>
+            <br>
+            <div class="row brand-row">
+              <div class="col-sm-4 offset-sm-0  col-md-2 offset-md-3">
+                <span class="helper"></span><a href="http://www.swagman.net/"><img class="brand-img" src="img/brands/swagman.jpg"></a>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-3 info-card">
-              <img class="circular-img" src="img/team/charles.jpg">
-              <div class="text-center img-info-text">
-                <h4>Charles Thomas</h4>
-                <h6>Mechanic</h4>
+              <div class="col-sm-4 col-md-2">
+                <span class="helper"></span><a href="https://www.raceface.com/"><img class="brand-img" src="img/brands/racefacelogo.jpg"></a>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-3 info-card">
-              <img class="circular-img" src="img/team/jordan.jpg">
-              <div class="text-center img-info-text">
-                <h4>Jordan</h4>
-                <h6>I run this place.</h6>
+              <div class="col-sm-4 col-md-2">
+                <span class="helper"></span><a href="http://www.goreapparel.com/gore-bike-wear/"><img class="brand-img" src="img/brands/gorebikewear.jpg"></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="band parallax-window" data-parallax="scroll" data-image-src="img/title-bands/rays.jpg">
-      <div class="container text-center">
-        <h2 style="color: white">Follow us</h2>
-        <br><br>
-        <a class="sm-link" href="https://www.instagram.com/ozziescycle/">
-          <i class="fa fa-instagram fa-inverse fa-4x"></i>
-        </a>
-        <a class="sm-link" href="https://www.facebook.com/ozzies.cycle">
-          <i class="fa fa-facebook fa-inverse fa-4x"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="rm-band">
-        <div class="container band">
-          <h4 class="text-center font-md-weight">2017 Rocky Mountain bikes in stock!<br><small>Come in for a test ride.</small></h4>
+      <div id="team" class="info-bg parallax-window" data-z-index="0" data-parallax="scroll" data-image-src="img/title-bands/barrierleap.jpg">
+        <div class="text-center title-band container">
+          <h2 class="text-white title-md">THE TEAM</h2>
         </div>
-    </div>
+      </div>
+
+      <div class="band">
+        <div class="container">
+          <div class="about-row-band-title text-center">
+            <div class="row">
+              <div class="col-sm-6 col-md-3 info-card">
+                <img class="circular-img" src="img/team/lee.jpg">
+                <div class="text-center img-info-text">
+                  <h4>Lee Blais</h4>
+                  <h6>Part-Owner/Mechanic</h4>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 info-card">
+                <img class="circular-img" src="img/team/gordon.jpg">
+                <div class="text-center img-info-text">
+                  <h4>Gordon Randall</h4>
+                  <h6>Part-Owner/Mechanic</h4>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 info-card">
+                <img class="circular-img" src="img/team/charles.jpg">
+                <div class="text-center img-info-text">
+                  <h4>Charles Thomas</h4>
+                  <h6>Mechanic</h4>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 info-card">
+                <img class="circular-img" src="img/team/jordan.jpg">
+                <div class="text-center img-info-text">
+                  <h4>Jordan</h4>
+                  <h6>I run this place.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="band parallax-window" data-z-index="0" data-parallax="scroll" data-image-src="img/title-bands/biker.jpg">
+        <div class="container text-center">
+          <h2 style="color: white">Follow us</h2>
+          <br><br>
+          <div id="instafeed">
+          </div>
+          <br><br>
+          <a class="sm-link" href="https://www.instagram.com/ozziescycle/">
+            <i class="fa fa-instagram fa-4x"></i>
+          </a>
+          <a class="sm-link" href="https://www.facebook.com/ozzies.cycle">
+            <i class="fa fa-facebook fa-4x"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="rm-band">
+          <div class="container band">
+            <h4 class="text-center font-md-weight">2017 Rocky Mountain bikes in stock!<br><small>Come in for a test ride.</small></h4>
+          </div>
+      </div>
+    </main>
 
 
 
     <div class="footer">
-      <div style="border-bottom: solid black 4px; border-top: solid black 4px;">
+      <div style="border-bottom: solid #303030 4px; border-top: solid #303030 4px;">
         <div style="padding: 5px; background-color: white; border-bottom: solid red 3px; border-top: solid red 3px;">
           <img class="footer-img center-img" src="img/logo/ozzies.gif">
         </div>
@@ -270,9 +269,11 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/parallax/parallax.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/parallax/parallax.min.js"></script>
+    <script type="text/javascript" src="js/instafeed/instafeed.min.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
   </body>
 </html>
