@@ -12,7 +12,7 @@
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url("www.cortlandthibodeau.com/Pictures/cortlandthibodeau.png") no-repeat;
+  background: url("http://www.cortlandthibodeau.com/Pictures/cortlandthibodeau.png") no-repeat;
   background-size: cover;
 }
 
@@ -73,7 +73,7 @@ main {
   /*------------*/
 
   .jumbotron {
-       background: url("../img/title-bands/clouds.jpg") #000 no-repeat center center fixed;
+       background: url("../img/title-bands/clouds.jpg") no-repeat center center fixed;
   }
   #bgvid {
       display: none;
