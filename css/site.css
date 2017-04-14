@@ -72,12 +72,12 @@ main {
 
   /*------------*/
 
-  .jumbotron {
+  /*.jumbotron {
        background: url("../img/title-bands/clouds.jpg") no-repeat center center fixed;
-  }
-  #bgvid {
+  }*/
+  /*#bgvid {
       display: none;
-  }
+  }*/
 }
 
 body {
