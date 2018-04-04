@@ -2,7 +2,7 @@ $(function () {
     var feed = new Instafeed({
         get: 'user',
         userId: 538737859,
-        accessToken: '5319357508.c97443f.85534bb0ee23471cb5d5bdab0cfcd91a',
+        accessToken: '538737859.8bcd5c5.dd19335ca70d4ece92d72449a9330db4',
         limit: 6,
         resolution: 'low_resolution',
     });
