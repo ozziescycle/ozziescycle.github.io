@@ -26,20 +26,20 @@
 	padding-top: 40px;
 }
 .logo {
-  font-size: calc(120% + 1vw);
-  line-height: 44px;
+  font-size: calc(110% + 1vw);
+  line-height: 55px;
   font-weight: bold;
 }
 .nav-link {
   font-size: 19px;
-  line-height: 44px;
+  line-height: 55px;
   text-decoration: none;
   color: inherit;
   display: inline-block;
   margin: 0 15px;
 }
 .logo img {
-  height: 44px;
+  height: 55px;
   display: inherit;
 }
 /*Text*/
@@ -228,6 +228,15 @@ img {
 .user-image {
   width: 120px;
   height: 120px;
+  border-radius: 50%;
+	display: inline-block;
+	background-position: center;
+	background-size: cover;
+}
+
+.service-image {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 	display: inline-block;
 	background-position: center;
