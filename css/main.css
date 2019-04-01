@@ -3,6 +3,7 @@
   margin: 15px;
   width: 235px;
   height: 235px;
+  object-fit: cover;
 }
 
 .font-modern * {
@@ -11,7 +12,7 @@
 }
 
 .heading {
-  font-family: 'Germania One', cursive;
+  font-family: 'Sedgwick Ave', cursive;
 }
 
 .font-modern .heading-lrg,
@@ -33,19 +34,19 @@
 }
 .logo {
   font-size: calc(110% + 1vw);
-  line-height: 65px;
+  line-height: 85px;
   font-weight: bold;
 }
 .nav-link {
   font-size: 19px;
-  line-height: 55px;
+  line-height: 80px;
   text-decoration: none;
   color: inherit;
   display: inline-block;
   margin: 0 15px;
 }
 .logo img {
-  height: 65px;
+  height: 85px;
   display: inherit;
 }
 /*Text*/
