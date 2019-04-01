@@ -6,8 +6,14 @@
 }
 
 .font-modern * {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }
+
+.heading {
+  font-family: 'Germania One', cursive;
+}
+
 .font-modern .heading-lrg,
 .font-modern .heading,
 .font-modern .heading-sml {
@@ -23,11 +29,11 @@
 	text-rendering: optimizeLegibility;
 }
 .header {
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .logo {
   font-size: calc(110% + 1vw);
-  line-height: 55px;
+  line-height: 65px;
   font-weight: bold;
 }
 .nav-link {
@@ -39,7 +45,7 @@
   margin: 0 15px;
 }
 .logo img {
-  height: 55px;
+  height: 65px;
   display: inherit;
 }
 /*Text*/
@@ -244,7 +250,7 @@ img {
 }
 
 .footer-image {
-  height: 70px;
+  height: 100px;
   width: 100px;
 	display: inline-block;
 	background-position: center;
