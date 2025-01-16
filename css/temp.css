@@ -56,14 +56,30 @@
     margin-top: -100px;
 }
 
-.overlay-simple > h1 {
+.title-bar > h1 {
     font-size: 140px; 
     margin-top: 10px; 
     margin-bottom: 10px;
 }
 
-.overlay-simple > p {
- font-size: 25px;
+.title-bar > p {
+    font-size: 25px;
+}
+
+.context {
+    max-width: fit-content; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.context > p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #292929;
+}
+
+.footer {
+    padding-top: 15px;
 }
 
 /* Breakpoints */ 
@@ -78,13 +94,17 @@
         border-radius: 0px;
     }
     
-    .overlay-simple > h1 {
+    .title-bar > h1 {
         font-size: 80px; 
         margin-top: 10px; 
         margin-bottom: 10px;
     }
     
-    .overlay-simple > p {
-     font-size: 15px;
+    .title-bar > p {
+     font-size: 18px;
+    }
+
+    .context > p {
+        font-size: 15px;
     }
 }
