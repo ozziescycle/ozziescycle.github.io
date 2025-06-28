@@ -18,11 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Jumping Slug Community Cyclery
+description: >- 
+  The Jumping Slug Community Cyclery is a bike shop located in Port Alberni, Vancouver 
+  Island. We specialize in all bike types: mountain, electric, gravel, adventure and road. 
+  If you're looking for a new bike, expert servicing, rentals or a friendly chat, come check 
+  us out!  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -42,14 +43,24 @@ notice:
 
 about_page:
   top_title: About Us
-  top_blurb: Located on the way into Port Alberni, The Jumping Slug offers top tier bike brands, service and rentals for every type of bike. With a big focus on the biking community in the Alberni valley, we host events and weekly group rides. For any information about services, rentals or rides feel free to visit the shop, call or email us (we're friendly)!
+  top_blurb: >- 
+    Located on the way into Port Alberni, The Jumping Slug offers top tier bike brands, 
+    service and rentals for every type of bike. With a big focus on the biking community 
+    in the Alberni valley, we host events and weekly group rides. For any information about 
+    services, rentals or rides feel free to visit the shop, call or email us (we're friendly)!
   extra_blurbs:
     - blurb:
       title: Services
-      text: Our team provides expert maintenance services for all types of bikes. From flat tires to tsunami tune maintenance packages, <u><a href="#services">learn more about our pricing and services here</a></u>.
+      text: >- 
+        Our team provides expert maintenance services for all types of bikes. From flat tires 
+        to tsunami tune maintenance packages, <u><a href="#services">learn more about our 
+        pricing and services here</a></u>.
     - blurb:
       title: Rentals and Demos
-      text: Interested in checking out the trails or logging roads around Port Alberni or Vancouver Island? We have mountain, electric, gravel and adventure bike rentals to suit your needs. <u><a href="#rentals">Learn more about our pricing</a></u>!
+      text: >- 
+        Interested in checking out the trails or logging roads around Port Alberni or Vancouver 
+        Island? We have mountain, electric, gravel and adventure bike rentals to suit your 
+        needs. <u><a href="#rentals">Learn more about our pricing</a></u>!
 
 service_packages:
   - level_1:
@@ -99,7 +110,9 @@ service_packages:
 
 service_page:
   top_title: Service Packages
-  top_text: We specialize in a wide variety of bikes, making them safe and actually enjoyable to ride. <b>Just remember, all parts are extra!</b>
+  top_text: >-
+    We specialize in a wide variety of bikes, making them safe and actually enjoyable to 
+    ride. <b>Just remember, all parts are extra!</b>
   middle_title: Individual Services
   middle_text: Our shop hourly rate is $70 per hour, or $100 per hour for e-bikes.
 
@@ -169,7 +182,10 @@ service_individuals:
   
 rental_page:
   top_title: Rentals and Demos
-  top_text: Take one of our bikes for a spin or an overnight adventure! All rental and demo fees go towards a purchase of a new bike (within 30 days). Helmets, knee pads and bags are also available for rent.
+  top_text: >- 
+    Take one of our bikes for a spin or an overnight adventure! All rental and demo fees 
+    go towards a purchase of a new bike (within 30 days). Helmets, knee pads and bags are 
+    also available for rent.
 
 rentals:
   - item:
@@ -246,7 +262,9 @@ team_members_top:
     name: Lee Blais
     photo: images/team/lee.jpg
     title: Owner
-    text: Lee spends a lot of time traveling around the island backroads by bike. If you want to check out cool remote locations, talk to this guy.
+    text: >- 
+      Lee spends a lot of time traveling around the island backroads by bike. If you want 
+      to check out cool remote locations, talk to this guy.
   - member:
     name: Nik Kay
     photo: images/team/nik.jpg
@@ -254,19 +272,19 @@ team_members_top:
     text: Specializing in Tsunami tune ups and going fast, Nik is our resident pro racer.
   - member: 
     name: Jeremy Robson
-    photo: images/team/jeremy1.jpg
+    photo: images/team/jeremy.jpg
     title: Mechanic
     text: Hey! I need a blurb! Let me know what to say!
 
 team_members_bottom:
   - member:
     name: Kyle Sketsch
-    photo: images/team/kyle1.jpg
+    photo: images/team/kyle.jpg
     title: Sales
     text: Hey! I need a blurb! Let me know what to say!
   - member:
     name: Cortland Thibodeau
-    photo: images/team/cortland1.jpg
+    photo: images/team/cortland.jpg
     title: Tech Guy
     text: Self proclaimed shop internet nerd. Cortland does the photography and website.
 
