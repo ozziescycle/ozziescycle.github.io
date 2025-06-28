@@ -1,4 +1,4 @@
-<section id="rentals" class="section peach-white background background-white" sitemeta="[object Object]" activepage="Landing">
+<section id="rentals" class="section slug-white background background-white">
     
     <div class="bg">
         <div class="bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.64),rgba(0, 0, 0, 0.01)), url(&quot;images/bg/interior.jpg&quot;);"></div>
@@ -6,8 +6,8 @@
     
     <div class="container mb75 text-center">
         <div class="col-12">
-            <h4 class="heading primary-color" style="font-family: 'Carter One', system-ui; color: white; text-shadow: 1px 2px #8c1ac4, 2px 3px #ed702d, 3px 4px #93f197, 4px 5px #ea33f7;">{{ site.rental_page.top_title }}</h4>
-            <p class="bold paragraph secondary-color" style="color: white; text-shadow: 1px 1px #232323">{{ site.rental_page.top_text }}</p>
+            <h4 class="heading section-heading bg-heading">{{ site.rental_page.top_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.rental_page.top_text }}</p>
         </div>
     </div>
 
@@ -22,8 +22,8 @@
                         <ul class="mt20">
                             {% for item in rental.prices %}
                             <li class="flex mb20"> 
-                                <span class="secondary-color flex">
-                                    <div style="width: 90px; padding-right: 5px;">{{ item.name }}</div><div style="width: 60px; text-align: right;"><b>{{ item.price }}</b></div>
+                                <span class="secondary-color flex rental-pricing">
+                                    <div>{{ item.name }}</div><div><b>{{ item.price }}</b></div>
                                 </span>
                             </li>
                             {% endfor %}

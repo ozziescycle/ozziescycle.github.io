@@ -18,6 +18,15 @@
   padding-right: 10px;
 }
 
+.rental-pricing > div:nth-child(1) {
+  width: 90px; 
+  padding-right: 5px;
+}
+.rental-pricing > div:nth-child(2) {
+  width: 60px; 
+  text-align: right;
+}
+
 .font-modern .heading-lrg,
 .font-modern .heading,
 .font-modern .heading-sml {
