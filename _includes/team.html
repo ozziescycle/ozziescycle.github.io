@@ -1,0 +1,35 @@
+<section id="team-5" class="section peach-white" sitemeta="[object Object]" activepage="Landing">
+    <div class="container text-center mb35">
+        <h3 class="heading primary-color" style="font-family: 'Carter One', system-ui;">{{ site.team_page.top_title }}</h3>
+        <p class="subheading secondary-color mt20"> {{ site.team_page.top_text }}</p>
+    </div>
+    <div class="container-lrg flex wrap text-center">
+        {% for member in site.team_members_top %}
+        <div class="col-4 flex mt40">
+            <div class="team-card flex flex-column center-vertical center-horizontal w100">
+                <div class="user-image mb20" style="background-image: url('{{ member.photo }}');"></div>
+                <div>
+                    <b class="bold primary-color">{{ member.name }}</b>
+                    <p class="paragraph primary-color mt10">{{ member.title }}</p>
+                    <p class="paragraph secondary-color mt20">{{ member.text }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="container-lrg flex wrap text-center">
+        <div class="col-2 flex"></div>
+        {% for member in site.team_members_bottom %}
+        <div class="col-4 flex mt40">
+            <div class="team-card flex flex-column center-vertical center-horizontal w100">
+                <div class="user-image mb20" style="background-image: url('{{ member.photo }}');"></div>
+                <div>
+                    <b class="bold primary-color">{{ member.name }}</b>
+                    <p class="paragraph primary-color mt10">{{ member.title }}</p>
+                    <p class="paragraph secondary-color mt20">{{ member.text }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+  </section>

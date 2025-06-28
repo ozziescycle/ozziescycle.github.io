@@ -1,0 +1,37 @@
+<div class="background background-white">
+    <div class="bg">
+      <div class="bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.477),rgba(255, 255, 255, 0.009)), url(&quot;images/bg/title.jpg&quot;);"></div>
+    </div>
+    
+    {% include nav.html %}
+
+    <section class="section">
+      <div class="container mb40">
+        <div class="col-12 text-center">
+          <!-- pink: #ea33f7, purple: #8c1ac4, green: #93f197, orange: #ed702d, yellow: #ffff54 -->
+          <h1 class="heading-md primary-color" style="font-family: 'Oi', serif; color: white; text-shadow: 1px 2px #8c1ac4, 2px 3px #ed702d, 3px 4px #93f197, 4px 5px #ea33f7;">The</h1>
+          <h1 class="heading-lrg primary-color" style="font-family: 'Oi', serif; color: white; text-shadow: 2px 3px #8c1ac4, 3px 4px #ed702d, 4px 5px #93f197, 5px 6px #ea33f7;">Jumping Slug</h1>
+          <h1 class="heading primary-color" style="font-family: 'Oi', serif; color: white; text-shadow: 1px 2px #8c1ac4, 2px 3px #ed702d, 3px 4px #93f197, 4px 5px #ea33f7;">Community Cyclery</h1>
+          <!-- <h1 class="heading primary-color" style="padding-top: 15px; font-family: 'Carter One', system-ui;">BIKE SALES, SERVICE AND RENTALS</h1> -->
+          <!-- <h1 class="heading-lrg primary-color" style="font-family: 'Sedgwick Ave', cursive; color: white; text-shadow: 1px 1px #8c1ac4, 2px 2px#ea33f7, 3px 3px #93f197;">The Jumping Slug<br>Community Cyclery</h1> -->
+          <!-- <h2 class="subheading secondary-color mt20">The name has changed,<br>but we're still the same loveable bike shop.</h2> -->
+          {% if site.notice.has_notice %}
+          <div class="col-12 mt30">
+            <div class="card pad20" style="background-color: white;">
+              <h4 class="mb10">⚠️ Notice ⚠️</h4>
+              <p>{{ site.notice.text }}</p>
+            </div>
+          </div>
+          {% endif %}
+          <div class="mt50">
+            <a href="tel:{{ site.phone }}" target="_blank" class="button button-green mobile-text-center mt10 mr10">
+              <span> Give us a call! </span>
+            </a>
+            <a href="mailto:{{ site.email }}" target="_blank" class="button button-purple mobile-text-center mt10"> <!--#6eb372-->
+              <span> Shoot us an email! </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
