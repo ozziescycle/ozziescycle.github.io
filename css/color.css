@@ -28,13 +28,6 @@
 .peach-black .secondary-color { color: #FFF1E8 }
 .peach-black .svg-fill { fill: #FFFFFF }
 
-.peach-white { background-color: #FFFFFF }
-.peach-white .bg-color { background-color: #FFFFFF }
-.peach-white .secondary-bg { background-color: #FEEAE7 }
-.peach-white .accent-bg { background-color: #143F6E }
-.peach-white .primary-color { color: #000000 }
-.peach-white .secondary-color { color: #8F8F8F }
-.peach-white .svg-fill { fill: #F7806E }
 .sunset-flat { background-color: #FAA64D }
 .sunset-flat .secondary-bg { background-color: #E45A6A }
 .sunset-flat .accent-bg { background-color: #333333 }
@@ -70,8 +63,48 @@
 .sunset-white .secondary-color { color: #8F8F8F }
 .sunset-white .svg-fill { fill: #FAA64D }
 
-.slug-green {}
-.slug-yellow {}
-.slug-orange {}
-.slug-purple {}
-.slug-pink {}
+/* Base Slug Colours */
+.slug-green { color: #93f197 }
+.slug-yellow { color: #ffff54 }
+.slug-orange { color: #ed702d }
+.slug-purple { color: #8c1ac4}
+.slug-pink { color: #ea33f7 }
+.slug-peach {color: #F7806E}
+
+/* Component Special Cases */
+/* Headers */
+.bg-heading {
+    color: white; 
+    text-shadow: 1px 2px #8c1ac4, 2px 3px #ed702d, 3px 4px #93f197, 4px 5px #ea33f7;
+}
+.bg-secondary {
+    color: white; 
+    text-shadow: 1px 1px #232323
+}
+
+/* Buttons */
+.button-primary {
+    color: black; 
+    background-image: linear-gradient(#ffff54, #93f197);
+}
+.button-primary:hover {
+    background-image: linear-gradient(#fafa3e, #7ae780);
+}
+
+.button-secondary {
+    color: white;
+    background-image: linear-gradient(#ea33f7, #8c1ac4);
+}
+.button-secondary:hover {
+    background-image: linear-gradient(#e626f4, #870cc5);
+}
+
+/* Section Template */
+.slug-white { background-color: #FFFFFF }
+.slug-white .bg-color { background-color: #FFFFFF }
+.slug-white .secondary-bg { background-color: #FEEAE7 }
+.slug-white .accent-bg { background-color: #93f197 }
+.slug-white .primary-color { color: #000000 }
+.slug-white .secondary-color { color: #8F8F8F }
+.slug-white .svg-fill { fill: #F7806E }
+

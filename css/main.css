@@ -4,26 +4,18 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.heading {
-  font-family: 'Sedgwick Ave', cursive;
+.site-title {
+  font-family: 'Oi', serif;
 }
 
-.button-green {
-  color: black; 
-  background-image: linear-gradient(#ffff54, #93f197); 
+.section-heading {
+  font-family: 'Carter One', system-ui;
 }
 
-.button-green:hover {
-  background-image: linear-gradient(#fafa3e, #7ae780);
-}
-
-.button-purple {
-  color: white;
-  background-image: linear-gradient(#ea33f7, #8c1ac4);
-}
-
-.button-purple:hover {
-  background-image: linear-gradient(#e626f4, #870cc5);
+.price-left {
+  width: 60px; 
+  text-align: right; 
+  padding-right: 10px;
 }
 
 .font-modern .heading-lrg,
