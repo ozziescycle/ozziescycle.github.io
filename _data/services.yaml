@@ -1,0 +1,121 @@
+top_title: Service Packages
+top_text: >-
+  We specialize in a wide variety of bikes, making them safe and actually enjoyable to 
+  ride. <b>Just remember, all parts are extra!</b>
+middle_title: Individual Services
+middle_text: Our shop hourly rate is $70 per hour, or $100 per hour for e-bikes.
+
+
+## Packages ##
+
+service_packages:
+  - level_1:
+    primary_name: Level 1
+    secondary_name: Safety Check Over
+    price: $45
+    timeframe: Recommended every 25+ hours
+    note: E-bike add $25, parts extra
+    items:
+      - name: Align and Adjust brakes
+      - name: Tune and adjust gears
+      - name: Torque all fasteners
+      - name: Inflate tires
+  - level_2:
+    primary_name: Level 2
+    secondary_name: Basic Tune Up
+    price: $75
+    timeframe: Recommended every 50+ hours
+    note: E-bike add $25, parts extra
+    items:
+      - name: Includes all level 1 services +
+      - name: On the bike wheel true
+      - name: Wash bike
+      - name: Replace cable and housing
+      - name: Test ride
+  - level_3:
+    primary_name: Level 3
+    secondary_name: Advanced Tune Up
+    price: $120
+    timeframe: Recommended every 75+ hours
+    note: E-bike add $50, parts extra
+    items:
+      - name: Includes all level 1 & 2 services +
+      - name: Drivetrain clean in solvent tank
+      - name: Off bike wheel true and tension
+  - level_4:
+    primary_name: Level 4
+    secondary_name: Tsunami Tune
+    price: $180
+    timeframe: Recommended every 75+ hours
+    note: E-bike add $50, parts extra
+    items:
+      - name: Includes all level 1, 2 & 3 services +
+      - name: Service or replacement of BB & headset
+      - name: Fork service 50HR (Add $60)
+      - name: Rear shock 50HR (Add $40)
+
+## Individuals ##
+
+service_individuals:
+  left_side:
+    - item:
+      price: $10
+      name: Flat tire
+    - item:
+      price: $10
+      name: Fix or replace chain
+    - item:
+      price: $30
+      name: Flat tire (e-bike hub drive)
+    - item:
+      price: $20
+      name: Set up tubeless (per wheel)
+    - item:
+      price: $30
+      name: Brake bleed (per side)
+    - item:
+      price: $30
+      name: Spoke replacement
+    - item:
+      price: $25
+      name: Wheel true & tension
+    - item:
+      price: $80
+      name: Wheel build
+    - item:
+      price: $40
+      name: Box bike
+    - item:
+      price: $75
+      name: Assemble bike
+  right_side:
+    - item:
+      price: $10
+      name: Gear adjust (per side)
+    - item:
+      price: $10
+      name: Brake adjust (per side)
+    - item:
+      price: $70
+      name: Fork service 50HR
+    - item:
+      price: $125
+      name: Fork service 150HR
+    - item:
+      price: $50
+      name: Rear shock service 50HR
+    - item:
+      price: $125
+      name: Rear shock service 150HR
+    - item:
+      price: $40
+      name: Dropper post service
+    - item:
+      price: $30
+      name: Replace BB
+    - item:
+      price: $50
+      name: Replace headset
+    - item:
+      price: $10
+      name: Replace sealed bearing

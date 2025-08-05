@@ -12,20 +12,20 @@
           <h1 class="heading-lrg site-title bg-heading">Jumping Slug</h1>
           <h1 class="heading site-title bg-heading">Community Cyclery</h1>
           
-          {% if site.notice.has_notice %}
+          {% if site.data.notice.has_notice %}
           <div class="col-12 mt30">
             <div class="card pad20" style="background-color: white;">
               <h4 class="mb10">⚠️ Notice ⚠️</h4>
-              <p>{{ site.notice.text }}</p>
+              <p>{{ site.data.notice.text }}</p>
             </div>
           </div>
           {% endif %}
           
           <div class="mt50">
-            <a href="tel:{{ site.phone }}" target="_blank" class="button button-primary mobile-text-center mt10 mr10">
+            <a href="tel:{{ site.data.store_info.phone }}" target="_blank" class="button button-primary mobile-text-center mt10 mr10">
               <span> Give us a call! </span>
             </a>
-            <a href="mailto:{{ site.email }}" target="_blank" class="button button-secondary mobile-text-center mt10">
+            <a href="mailto:{{ site.data.store_info.email }}" target="_blank" class="button button-secondary mobile-text-center mt10">
               <span> Shoot us an email! </span>
             </a>
           </div>

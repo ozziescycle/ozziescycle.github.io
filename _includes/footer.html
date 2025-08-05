@@ -18,16 +18,16 @@
                         <b class="heading section-heading primary-color">The Jumping Slug</b>
                         <h4 class="bold primary-color">Community Cyclery</h4>
                         <p class="paragraph pad10 secondary-color"></p>
-                        <p class="paragraph secondary-color">{{ site.address }}</p>
-                        <p class="paragraph secondary-color">{{ site.hours.hours_1 }}</p>
-                        <p class="paragraph secondary-color">{{ site.hours.hours_2 }}</p>
-                        <p class="paragraph secondary-color">{{ site.email }}</p>
-                        <p class="paragraph secondary-color">{{ site.phone }}</p>
+                        <p class="paragraph secondary-color">{{ site.data.store_info.address }}</p>
+                        <p class="paragraph secondary-color">{{ site.data.store_info.hours.hours_1 }}</p>
+                        <p class="paragraph secondary-color">{{ site.data.store_info.hours.hours_2 }}</p>
+                        <p class="paragraph secondary-color">{{ site.data.store_info.email }}</p>
+                        <p class="paragraph secondary-color">{{ site.data.store_info.phone }}</p>
                         <p class="paragraph secondary-color pad20">
-                            <a class="pad10" href="{{ site.instagram_link }}" target="_blank">
+                            <a class="pad10" href="{{ site.data.store_info.instagram_link }}" target="_blank">
                                 <i class="fa fa-instagram fa-2x"></i>
                             </a>
-                            <a class="pad10" href="{{ site.facebook_link }}" target="_blank">
+                            <a class="pad10" href="{{ site.data.store_info.facebook_link }}" target="_blank">
                                 <i class="fa fa-facebook fa-2x"></i>
                             </a>
                         </p>

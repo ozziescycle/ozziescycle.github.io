@@ -1,0 +1,60 @@
+top_title: We feature top-tier brands!
+top_text: Here are a few of our favourites.
+
+items:
+  - item:
+    img: images/brands/surly_logo.png
+    link: https://surlybikes.com
+    alt: Surly Bikes
+  - item:
+    img: images/brands/devinci_logo.png
+    link: https://www.devinci.com/
+    alt: Devinci Bikes
+  - item:
+    img: images/brands/trek_logo.png
+    link: https://www.trekbikes.com/ca/en_CA/
+    alt: Trek Bikes
+  - item:
+    img: images/brands/norco_logo.png
+    link: https://www.norco.com/
+    alt: Norco Bikes
+  - item:
+    img: images/brands/knolly_logo.png
+    link: https://knollybikes.com/
+    alt: Knolly Bikes
+  - item:
+    img: images/brands/cannondale_logo.png
+    link: https://www.cannondale.com/
+    alt: Cannondale Bikes
+  - item:
+    img: images/brands/marin_logo.png
+    link: https://www.marinbikes.com/
+    alt: Marin Bikes
+  - item:
+    img: images/brands/oneup_logo.png
+    link: https://can.oneupcomponents.com
+    alt: OneUp Components
+  - item:
+    img: images/brands/raceface_logo.png
+    link: https://www.raceface.com/
+    alt: Raceface Components
+  - item:
+    img: images/brands/chromag_logo.png
+    link: https://chromagbikes.com/
+    alt: Chromag Bikes
+  - item:
+    img: images/brands/rockshox_logo.png
+    link: https://www.sram.com/en/rockshox
+    alt: Rockshox Suspension
+  - item:
+    img: images/brands/100_percent_logo.png
+    link: https://www.100percent.com/
+    alt: 100 Percent
+  - item:
+    img: images/brands/revelatedesigns_logo.png
+    link: http://www.revelatedesigns.com/
+    alt: Revelate Designs
+  - item:
+    img: images/brands/gorebike_logo.png
+    link: https://www.gorewear.com/
+    alt: Gore Bike Wear

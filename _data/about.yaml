@@ -1,0 +1,19 @@
+top_title: About Us
+top_blurb: >- 
+  Located on the way into Port Alberni, The Jumping Slug offers top tier bike brands, 
+  service and rentals for every type of bike. With a big focus on the biking community 
+  in the Alberni valley, we host events and weekly group rides. For any information about 
+  services, rentals or rides feel free to visit the shop, call or email us (we're friendly)!
+extra_blurbs:
+  - blurb:
+    title: Services
+    text: >- 
+      Our team provides expert maintenance services for all types of bikes. From flat tires 
+      to tsunami tune maintenance packages, <u><a href="#services">learn more about our 
+      pricing and services here</a></u>.
+  - blurb:
+    title: Rentals and Demos
+    text: >- 
+      Interested in checking out the trails or logging roads around Port Alberni or Vancouver 
+      Island? We have mountain, electric, gravel and adventure bike rentals to suit your 
+      needs. <u><a href="#rentals">Learn more about our pricing</a></u>!

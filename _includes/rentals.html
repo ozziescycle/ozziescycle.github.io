@@ -6,15 +6,15 @@
     
     <div class="container mb75 text-center">
         <div class="col-12">
-            <h4 class="heading section-heading bg-heading">{{ site.rental_page.top_title }}</h4>
-            <p class="bold paragraph bg-secondary">{{ site.rental_page.top_text }}</p>
+            <h4 class="heading section-heading bg-heading">{{ site.data.rentals.top_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.data.rentals.top_text }}</p>
         </div>
     </div>
 
     <div class="container-lrg mb35">
         <div class="col-12">
             <div class="card flex mobile-flex-wrap" style="background-color: white;">
-                {% for rental in site.rentals %}
+                {% for rental in site.data.rentals.items %}
                 <div class="col-3 pad30 flex flex-column spread">
                     <div class="mb20">
                         <h4 class="bold primary-color">{{ rental.primary_name }}</h4>

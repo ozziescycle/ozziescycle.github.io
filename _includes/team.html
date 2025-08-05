@@ -1,10 +1,10 @@
 <section id="team" class="section slug-white">
     <div class="container text-center mb35">
-        <h3 class="heading section-heading primary-color">{{ site.team_page.top_title }}</h3>
-        <p class="subheading secondary-color mt20"> {{ site.team_page.top_text }}</p>
+        <h3 class="heading section-heading primary-color">{{ site.data.team.top_title }}</h3>
+        <p class="subheading secondary-color mt20"> {{ site.data.team.top_text }}</p>
     </div>
     <div class="container-lrg flex wrap text-center">
-        {% for member in site.team_members_top %}
+        {% for member in site.data.team.top_items %}
         <div class="col-4 flex mt40">
             <div class="team-card flex flex-column center-vertical center-horizontal w100">
                 <div class="user-image mb20" style="background-image: url('{{ member.photo }}');"></div>
@@ -19,7 +19,7 @@
     </div>
     <div class="container-lrg flex wrap text-center">
         <div class="col-2 flex"></div>
-        {% for member in site.team_members_bottom %}
+        {% for member in site.data.team.bottom_items %}
         <div class="col-4 flex mt40">
             <div class="team-card flex flex-column center-vertical center-horizontal w100">
                 <div class="user-image mb20" style="background-image: url('{{ member.photo }}');"></div>

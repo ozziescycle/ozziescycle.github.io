@@ -6,15 +6,15 @@
     
     <div class="container mb75 text-center">
         <div class="col-12">
-            <h4 class="heading section-heading bg-heading">{{ site.service_page.top_title }}</h4>
-            <p class="bold paragraph bg-secondary">{{ site.service_page.top_text }}</p>
+            <h4 class="heading section-heading bg-heading">{{ site.data.services.top_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.data.services.top_text }}</p>
         </div>
     </div>
 
     <div class="container-lrg mb35">
         <div class="col-12">
             <div class="card flex mobile-flex-wrap" style="background-color: white;">
-                {% for service in site.service_packages %}
+                {% for service in site.data.services.service_packages %}
                 <div class="col-3 pad30 flex flex-column spread">
                     <div class="mb20">
                     <h4 class="bold primary-color">{{ service.primary_name }}</h4>
@@ -40,8 +40,8 @@
 
     <div class="container mb20 text-center">
         <div class="col-12">
-            <h4 class="heading section-heading bg-heading">{{ site.service_page.middle_title }}</h4>
-            <p class="bold paragraph bg-secondary">{{ site.service_page.middle_text }}</p>
+            <h4 class="heading section-heading bg-heading">{{ site.data.services.middle_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.data.services.middle_text }}</p>
         </div>
     </div>
 
@@ -50,7 +50,7 @@
             <div class="card flex mobile-flex-wrap pad20" style="background-color: white;">
                 <div class="col-6 flex-column">
                     <ul>
-                        {% for item in site.service_individuals.left_side %}
+                        {% for item in site.data.services.service_individuals.left_side %}
                         <li class="flex mb10">
                             <span class="secondary-color flex">
                             <div class="price-left"><b>{{ item.price }}</b></div> {{ item.name }}
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-6" style="border: 0;">
                     <ul>
-                        {% for item in site.service_individuals.right_side %}
+                        {% for item in site.data.services.service_individuals.right_side %}
                         <li class="flex mb10">
                             <span class="secondary-color flex">
                             <div class="price-left"><b>{{ item.price }}</b></div> {{ item.name }}

@@ -1,0 +1,33 @@
+top_title: Our Team
+top_text: The people that make us so great!
+
+top_items:
+  - item:
+    name: Lee Blais
+    photo: images/team/lee.jpg
+    title: Owner
+    text: >- 
+      Lee spends a lot of time traveling around the island backroads by bike. If you want 
+      to check out cool remote locations, talk to this guy.
+  - item:
+    name: Nik Kay
+    photo: images/team/nik.jpg
+    title: Senior Mechanic
+    text: Specializing in Tsunami tune ups and going fast, Nik is our resident pro racer.
+  - item: 
+    name: Jeremy Robson
+    photo: images/team/jeremy.jpg
+    title: Mechanic
+    text: Junior pro mechanic and single-track baddy.
+
+bottom_items:
+  - item:
+    name: Kyle Sketsch
+    photo: images/team/kyle.jpg
+    title: Sales
+    text: Ex BMX dirt bag turned gravel monster. Slug greeter and pro sales are his gig now.
+  - item:
+    name: Cortland Thibodeau
+    photo: images/team/cortland.jpg
+    title: Tech Guy
+    text: Self proclaimed shop internet nerd. Cortland does the photography and website.
