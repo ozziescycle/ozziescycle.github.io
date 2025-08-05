@@ -1,0 +1,37 @@
+<section id="rentals" class="section slug-white background background-white">
+    
+    <div class="bg">
+        <div class="bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.64),rgba(0, 0, 0, 0.01)), url(&quot;images/bg/interior.jpg&quot;);"></div>
+    </div>
+    
+    <div class="container mb75 text-center">
+        <div class="col-12">
+            <h4 class="heading section-heading bg-heading">{{ site.data.rentals.top_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.data.rentals.top_text }}</p>
+        </div>
+    </div>
+
+    <div class="container-lrg mb35">
+        <div class="col-12">
+            <div class="card flex mobile-flex-wrap" style="background-color: white;">
+                {% for rental in site.data.rentals.items %}
+                <div class="col-3 pad30 flex flex-column spread">
+                    <div class="mb20">
+                        <h4 class="bold primary-color">{{ rental.primary_name }}</h4>
+                        <b class="secondary-color">{{ rental.secondary_name }}</b>
+                        <ul class="mt20">
+                            {% for item in rental.prices %}
+                            <li class="flex mb20"> 
+                                <span class="secondary-color flex rental-pricing">
+                                    <div>{{ item.name }}</div><div><b>{{ item.price }}</b></div>
+                                </span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

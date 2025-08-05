@@ -1,0 +1,39 @@
+<section id="faq" class="section slug-white">
+    <div class="container">
+        <div class="col-12 text-center">
+        <h3 class="heading section-heading primary-color">
+            {{ site.data.about.top_title }}
+        </h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-12 mt20">
+            <div class="faq pad20">
+                <p class="paragraph secondary-color">
+                {{ site.data.about.top_blurb }}
+                </p>
+                <iframe width="100%" height="350" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10416.792403954814!2d-124.798234!3d49.253691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a6c98c5b18f1cc3!2sThe+Jumping+Slug+Community+Cyclery!5e0!3m2!1sen!2sca!4v1554141747764!5m2!1sen!2sca">
+                </iframe>
+            </div>
+            <div class="faq pad20">
+                <b class="bold primary-color">
+                    Hours
+                </b>
+                <p class="paragraph secondary-color">
+                    We're open {{ site.data.store_info.hours.hours_1 }}, and {{ site.data.store_info.hours.hours_2 }}.
+                </p>
+            </div>
+            {% for blurb in site.data.about.extra_blurbs %}
+            <div class="faq pad20">
+                <b class="bold primary-color">
+                    {{ blurb.title }}
+                </b>
+                <p class="paragraph secondary-color">
+                    {{ blurb.text }}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

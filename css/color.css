@@ -1,71 +1,45 @@
-/* body {background-color: #F7806E} */
+/* Base Slug Colours */
+.slug-green { color: #93f197 }
+.slug-yellow { color: #ffff54 }
+.slug-orange { color: #ed702d }
+.slug-purple { color: #8c1ac4}
+.slug-pink { color: #ea33f7 }
+.slug-peach {color: #F7806E}
 
-.peach-flat { background-color: #F7806E }
-.peach-flat .secondary-bg { background-color: #FFA067 }
-.peach-flat .accent-bg { background-color: #143F6E }
-.peach-flat .primary-color { color: #FFFFFF }
-.peach-flat .secondary-color { color: #FEEAE7 }
-.peach-flat .svg-fill { fill: #FFFFFF }
+/* Component Special Cases */
+/* Headers */
+.bg-heading {
+    color: white; 
+    text-shadow: 1px 2px #8c1ac4, 2px 3px #ed702d, 3px 4px #93f197, 4px 5px #ea33f7;
+}
+.bg-secondary {
+    color: white; 
+    text-shadow: 1px 1px #232323
+}
 
-.peach-gradient { background: linear-gradient(#FF465E, #F7806E) }
-.peach-gradient .secondary-bg { background-color: #FFA067 }
-.peach-gradient .accent-bg { background-color: #143F6E }
-.peach-gradient .primary-color { color: #FFFFFF }
-.peach-gradient .secondary-color { color: #FEEAE7 }
-.peach-gradient .svg-fill { fill: #FFFFFF }
+/* Buttons */
+.button-primary {
+    color: black; 
+    background-image: linear-gradient(#ffff54, #93f197);
+}
+.button-primary:hover {
+    background-image: linear-gradient(#fafa3e, #7ae780);
+}
 
-.peach-accent { background-color: #143F6E }
-.peach-accent .secondary-bg { background-color: #FFA067 }
-.peach-accent .accent-bg { background-color: #F7806E }
-.peach-accent .primary-color { color: #FFFFFF }
-.peach-accent .secondary-color { color: #d1d9e2 }
-.peach-accent .svg-fill { fill: #FFFFFF }
+.button-secondary {
+    color: white;
+    background-image: linear-gradient(#ea33f7, #8c1ac4);
+}
+.button-secondary:hover {
+    background-image: linear-gradient(#e626f4, #870cc5);
+}
 
-.peach-black { background-color: #FFA067 }
-.peach-black .secondary-bg { background-color: #F7806E }
-.peach-black .accent-bg { background-color: #143F6E }
-.peach-black .primary-color { color: #FFFFFF }
-.peach-black .secondary-color { color: #FFF1E8 }
-.peach-black .svg-fill { fill: #FFFFFF }
+/* Section Template */
+.slug-white { background-color: #FFFFFF }
+.slug-white .bg-color { background-color: #FFFFFF }
+.slug-white .secondary-bg { background-color: #FEEAE7 }
+.slug-white .accent-bg { background-color: #93f197 }
+.slug-white .primary-color { color: #000000 }
+.slug-white .secondary-color { color: #8F8F8F }
+.slug-white .svg-fill { fill: #F7806E }
 
-.peach-white { background-color: #FFFFFF }
-.peach-white .bg-color { background-color: #FFFFFF }
-.peach-white .secondary-bg { background-color: #FEEAE7 }
-.peach-white .accent-bg { background-color: #143F6E }
-.peach-white .primary-color { color: #000000 }
-.peach-white .secondary-color { color: #8F8F8F }
-.peach-white .svg-fill { fill: #F7806E }
-.sunset-flat { background-color: #FAA64D }
-.sunset-flat .secondary-bg { background-color: #E45A6A }
-.sunset-flat .accent-bg { background-color: #333333 }
-.sunset-flat .primary-color { color: #FFFFFF }
-.sunset-flat .secondary-color { color: #FFF2E5 }
-.sunset-flat .svg-fill { fill: #FFFFFF }
-
-.sunset-gradient { background: linear-gradient(#E45A6A, #FAA64D) }
-.sunset-gradient .secondary-bg { background-color: #E45A6A }
-.sunset-gradient .accent-bg { background-color: #333333 }
-.sunset-gradient .primary-color { color: #FFFFFF }
-.sunset-gradient .secondary-color { color: #FFF2E5 }
-.sunset-gradient .svg-fill { fill: #FFFFFF }
-
-.sunset-accent { background-color: #333333 }
-.sunset-accent .secondary-bg { background-color: #E45A6A }
-.sunset-accent .accent-bg { background-color: #FAA64D }
-.sunset-accent .primary-color { color: #FFFFFF }
-.sunset-accent .secondary-color { color: #DCDCDC }
-.sunset-accent .svg-fill { fill: #FFFFFF }
-
-.sunset-black { background-color: #E45A6A }
-.sunset-black .secondary-bg { background-color: #FAA64D }
-.sunset-black .accent-bg { background-color: #333333 }
-.sunset-black .primary-color { color: #FFFFFF }
-.sunset-black .secondary-color { color: #FAE2E5 }
-.sunset-black .svg-fill { fill: #FFFFFF }
-
-.sunset-white { background-color: #FFFFFF }
-.sunset-white .secondary-bg { background-color: #FFF2E5 }
-.sunset-white .accent-bg { background-color: #333333 }
-.sunset-white .primary-color { color: #000000 }
-.sunset-white .secondary-color { color: #8F8F8F }
-.sunset-white .svg-fill { fill: #FAA64D }

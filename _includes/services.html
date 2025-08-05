@@ -1,0 +1,76 @@
+<section id="services" class="section slug-white background background-white">
+    
+    <div class="bg">
+        <div class="bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.514),rgba(0, 0, 0, 0.01)), url(&quot;images/bg/services.jpg&quot;);"></div>
+    </div>
+    
+    <div class="container mb75 text-center">
+        <div class="col-12">
+            <h4 class="heading section-heading bg-heading">{{ site.data.services.top_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.data.services.top_text }}</p>
+        </div>
+    </div>
+
+    <div class="container-lrg mb35">
+        <div class="col-12">
+            <div class="card flex mobile-flex-wrap" style="background-color: white;">
+                {% for service in site.data.services.service_packages %}
+                <div class="col-3 pad30 flex flex-column spread">
+                    <div class="mb20">
+                    <h4 class="bold primary-color">{{ service.primary_name }}</h4>
+                    <div><b class="secondary-color">{{ service.secondary_name }}</b></div>
+                    <div><b class="heading primary-color pt10 section-heading">{{ service.price }}</b></div>
+                    <ul class="mt10">
+                        {% for item in service.items %}
+                        <li class="flex mb20">
+                        {% include components/checkmark.html %}
+                        <span class="span secondary-color">{{ item.name }}</span>
+                        </li>
+                        {% endfor %}
+                        <li class="flex mb20">
+                        <span class="span secondary-color"><b>*</b> {{ service.note }}</span>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb20 text-center">
+        <div class="col-12">
+            <h4 class="heading section-heading bg-heading">{{ site.data.services.middle_title }}</h4>
+            <p class="bold paragraph bg-secondary">{{ site.data.services.middle_text }}</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-12">
+            <div class="card flex mobile-flex-wrap pad20" style="background-color: white;">
+                <div class="col-6 flex-column">
+                    <ul>
+                        {% for item in site.data.services.service_individuals.left_side %}
+                        <li class="flex mb10">
+                            <span class="secondary-color flex">
+                            <div class="price-left"><b>{{ item.price }}</b></div> {{ item.name }}
+                            </span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-6" style="border: 0;">
+                    <ul>
+                        {% for item in site.data.services.service_individuals.right_side %}
+                        <li class="flex mb10">
+                            <span class="secondary-color flex">
+                            <div class="price-left"><b>{{ item.price }}</b></div> {{ item.name }}
+                            </span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

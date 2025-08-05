@@ -1,0 +1,71 @@
+top_title: Rentals and Demos
+top_text: >- 
+  Take one of our bikes for a spin or an overnight adventure! All rental and demo fees 
+  go towards a purchase of a new bike (within 30 days). Helmets, knee pads and bags are 
+  also available for rent.
+
+items:
+  - item:
+    primary_name: MTB
+    secondary_name: Rental
+    prices:
+      - item:
+        price: $70
+        name: 4 hours
+      - item:
+        price: $100
+        name: 8 hours
+      - item:
+        price: $110
+        name: 1 day
+      - item:
+        price: $400
+        name: 7 days
+  - item:
+    primary_name: E-Bike
+    secondary_name: Rental
+    prices:
+      - item:
+        price: $90
+        name: 4 hours
+      - item:
+        price: $120
+        name: 8 hours
+      - item:
+        price: $130
+        name: 1 day
+      - item:
+        price: $500
+        name: 7 days
+  - item:
+    primary_name: Adv./Gravel
+    secondary_name: Rental
+    prices:
+      - item:
+        price: $70
+        name: 4 hours
+      - item:
+        price: $100
+        name: 8 hours
+      - item:
+        price: $110
+        name: 1 day
+      - item:
+        price: $400
+        name: 7 days
+  - item:
+    primary_name: Demo
+    secondary_name: Program
+    prices:
+      - item:
+        price: $70
+        name: 4 hours
+      - item:
+        price: $100
+        name: 8 hours
+      - item:
+        price: $110
+        name: 1 day
+      - item:
+        price: $400
+        name: 7 days

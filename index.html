@@ -1,49 +1,23 @@
+---
+---
 <html>
+  {% include _header.html %}
 
-  <head>
-    <title>The Jumping Slug Community Cyclery</title>
-    <meta charSet="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="The Jumping Slug Community Cyclery. We're a small bike shop with big hearts located in Port Alberni, BC.">
-    <link rel="shortcut icon" href="images/logo_small.png" />
+  <body class="font-modern">
+    
+    {% include landing.html %}
+    
+    {% include about.html %}
 
-    <link rel="stylesheet" href="css/temp.css">
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900" rel="stylesheet">
+    {% include services.html %}
+    
+    {% include brands.html %}
 
-    <script src="https://use.fontawesome.com/ed141aaa80.js"></script>
-  </head>
+    {% include rentals.html %}
 
-  <body>
-
-    <div class="bg">
-      <div class="bg-image"></div>
-    </div>
-
-    <div class="center-div">
-      <div class="overlay-simple font-modern">
-        <div class="text-center title-bar">
-          <img class="overlay-img" src="images/logo.png"/>
-          <h1>WE'VE MOVED!</h1>
-          <p>We are now at 4691 Dundalk Ave South.</p>
-        </div>
-          
-        <div class="context">
-          <p>
-            Our hours are:<br>
-            10am to 5:30pm, Tues - Friday<br>
-            9am to 4pm, Saturday<br>
-            Closed Sunday and Monday<br>
-          </p>
-        </div>
-
-        <div class="text-center footer">
-          <a href="https://www.instagram.com/thejumpingslug/">
-            <i class="fa fa-instagram fa-2x"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  
-</body>
+    {% include team.html %}
+    
+    {% include footer.html %}
+  </body>
 
 </html>

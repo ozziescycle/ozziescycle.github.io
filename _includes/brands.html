@@ -1,0 +1,22 @@
+<section id="brands" class="section slug-white">
+    
+    <div class="container text-center mb50">
+        <div class="col-12">
+            <h4 class="heading section-heading primary-color">{{ site.data.brands.top_title }}</h4>
+            <p class="subheading secondary-color mt20">{{ site.data.brands.top_text }}</p>
+        </div>
+    </div>
+    
+    <div class="container-lrg">
+        <div class="flex center-horizontal wrap center-vertical">
+            {% for item in site.data.brands.items %}
+            <div class="col-3 mobile-col-6 mt30">
+                <a href="{{ item.link }}" target="_blank">
+                    <img src="{{ item.img }}" class="press-logo" alt="{{ item.alt }}">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

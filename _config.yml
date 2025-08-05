@@ -1,0 +1,13 @@
+# Jumping Slug Site Config
+
+title: Jumping Slug Community Cyclery
+description: >- 
+  The Jumping Slug Community Cyclery is a bike shop located in Port Alberni, Vancouver 
+  Island. We specialize in all bike types: mountain, electric, gravel, adventure and road. 
+  If you're looking for a new bike, expert servicing, rentals or a friendly chat, come check 
+  us out!
+
+url: https://ozziescycle.github.io 
+baseurl: / 
+
+
