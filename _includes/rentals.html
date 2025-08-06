@@ -16,18 +16,20 @@
             <div class="card flex mobile-flex-wrap" style="background-color: white;">
                 {% for rental in site.data.rentals.items %}
                 <div class="col-3 pad30 flex flex-column spread">
-                    <div class="mb20">
-                        <h4 class="bold primary-color">{{ rental.primary_name }}</h4>
-                        <b class="secondary-color">{{ rental.secondary_name }}</b>
-                        <ul class="mt20">
-                            {% for item in rental.prices %}
-                            <li class="flex mb20"> 
-                                <span class="secondary-color flex rental-pricing">
-                                    <div>{{ item.name }}</div><div><b>{{ item.price }}</b></div>
-                                </span>
-                            </li>
-                            {% endfor %}
-                        </ul>
+                    <div class="flex center-vertical">
+                        <div class="mb20">
+                            <h4 class="bold primary-color">{{ rental.primary_name }}</h4>
+                            <b class="secondary-color">{{ rental.secondary_name }}</b>
+                            <ul class="mt20">
+                                {% for item in rental.prices %}
+                                <li class="flex mb20"> 
+                                    <span class="secondary-color flex rental-pricing">
+                                        <div>{{ item.name }}</div><div><b>{{ item.price }}</b></div>
+                                    </span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 {% endfor %}
