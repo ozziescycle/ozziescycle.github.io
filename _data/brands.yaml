@@ -19,17 +19,13 @@ items:
     link: https://www.norco.com/
     alt: Norco Bikes
   - item:
-    img: images/brands/knolly_logo.png
-    link: https://knollybikes.com/
-    alt: Knolly Bikes
-  - item:
     img: images/brands/cannondale_logo.png
     link: https://www.cannondale.com/
     alt: Cannondale Bikes
   - item:
-    img: images/brands/marin_logo.png
-    link: https://www.marinbikes.com/
-    alt: Marin Bikes
+    img: images/brands/hudski_logo.png
+    link: https://hudskibikes.com
+    alt: Hudski Bikes
   - item:
     img: images/brands/oneup_logo.png
     link: https://can.oneupcomponents.com
@@ -55,6 +51,10 @@ items:
     link: http://www.revelatedesigns.com/
     alt: Revelate Designs
   - item:
-    img: images/brands/gorebike_logo.png
-    link: https://www.gorewear.com/
-    alt: Gore Bike Wear
+    img: images/brands/troylee_logo.png
+    link: https://troyleedesigns.ca
+    alt: Troy Lee Designs
+  - item:
+    img: images/brands/7mesh_logo.png
+    link: https://7mesh.com
+    alt: 7Mesh Cycling Apparel
