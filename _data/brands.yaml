@@ -23,6 +23,10 @@ items:
     link: https://www.cannondale.com/
     alt: Cannondale Bikes
   - item:
+    img: images/brands/pivot_logo.png
+    link: https://www.pivotcycles.com/int/
+    alt: Pivot Bikes
+  - item:
     img: images/brands/hudski_logo.png
     link: https://hudskibikes.com
     alt: Hudski Bikes
