@@ -7,10 +7,6 @@ items:
     link: https://surlybikes.com
     alt: Surly Bikes
   - item:
-    img: images/brands/devinci_logo.png
-    link: https://www.devinci.com/
-    alt: Devinci Bikes
-  - item:
     img: images/brands/trek_logo.png
     link: https://www.trekbikes.com/ca/en_CA/
     alt: Trek Bikes
@@ -27,10 +23,6 @@ items:
     link: https://www.pivotcycles.com/int/
     alt: Pivot Bikes
   - item:
-    img: images/brands/hudski_logo.png
-    link: https://hudskibikes.com
-    alt: Hudski Bikes
-  - item:
     img: images/brands/oneup_logo.png
     link: https://can.oneupcomponents.com
     alt: OneUp Components
@@ -46,10 +38,6 @@ items:
     img: images/brands/rockshox_logo.png
     link: https://www.sram.com/en/rockshox
     alt: Rockshox Suspension
-  - item:
-    img: images/brands/100_percent_logo.png
-    link: https://www.100percent.com/
-    alt: 100 Percent
   - item:
     img: images/brands/revelatedesigns_logo.png
     link: http://www.revelatedesigns.com/
